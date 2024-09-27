@@ -33,7 +33,6 @@ export async function OPTIONS() {
       'Access-Control-Allow-Methods': 'POST',
       'Access-Control-Expose-Headers': 'Content-Length, X-JSON',
       'Access-Control-Allow-Headers': '*',
-      'X-Frame-Options': 'ALLOWALL',
     },
   })
 }

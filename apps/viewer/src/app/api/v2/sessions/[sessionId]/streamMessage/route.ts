@@ -9,7 +9,6 @@ const responseHeaders = {
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
   'Access-Control-Expose-Headers': 'Content-Length, X-JSON',
   'Access-Control-Allow-Headers': '*',
-  'X-Frame-Options': 'ALLOWALL',
 }
 
 export async function OPTIONS() {
@@ -19,7 +18,6 @@ export async function OPTIONS() {
       'Access-Control-Allow-Methods': 'POST',
       'Access-Control-Expose-Headers': 'Content-Length, X-JSON',
       'Access-Control-Allow-Headers': '*',
-      'X-Frame-Options': 'ALLOWALL',
     },
   })
 }
